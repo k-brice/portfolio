@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive portfolio</title>
+
+    <!-- css link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--box icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">YONTA</a>
+        <div class='bx fas fa-bars' id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#service">service</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </header>
+
+
+    <!--home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Hello</span>
+            <h1> i am YONTA</h1>
+            <h2>software engineer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Quae, nobis.</p>
+            <a href="#" class="btn">still learning</a>
+        </div>
+        <div class="home-img">
+            <img src="images/profil.jpg" alt="">
+        </div>
+    </section>
+    
+    
+
+    <!--about-->
+    <section class="about" id="about">
+        <div class="about-title">
+            <h1><span>About</span> Me</h1>
+            <h2>introduction</h2>
+            <div class="about-img">
+                <img src="images/pro.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur voluptas harum possimus nisi, tenetur ipsum explicabo officiis? Fugit, explicabo dolor!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis cum officia dicta minus corrupti. Voluptas doloremque maiores laborum omnis eveniet, iure similique accusantium, ipsam natus dignissimos doloribus debitis dicta mollitia.</p>
+                <div class="social">
+                    <a href="#"><i class='bx fas fa-paper-plane'></i></a>
+                    <a href="#"><i class='bx fas fa-comments'></i></a>
+                    <a href="#"><i class='bx fas fa-thumbs-up'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--service-->
+   <section class="service" id="service">
+    <div class="heading">
+        <h1>our <span>service</span></h1>
+    </div>
+    <div class="service-container">
+        <!--box1-->
+        <div class="box">
+            <i class='bx fas fa-file-video'></i>
+            <h2>video </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, tenetur excepturi?</p>
+        </div>
+        <!--box2-->
+        <div class="box">
+            <i class='bx fas fa-code'></i>
+            <h2>coding</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, tenetur excepturi?</p>
+        </div>
+        <!--box3-->
+        <div class="box">
+            <i class='bx fas fa-user'></i>
+            <h2>SEO</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, tenetur excepturi?</p>
+        </div>
+        <!--box4-->
+        <div class="box">
+            <i class='bx fas fa-pen'></i>
+            <h2>content writing</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, tenetur excepturi?</p>
+        </div>
+    </div>
+   </section> 
+
+
+   <!--portfolio-->
+   <section class="portfolio" id="portfolio">
+    <div class="heading">
+        <h1>our <span>portfolio</span></h1>
+    </div>
+    <div class="portfolio-container">
+        <div class="box">
+            <div class="box-img">
+                <img src="images/w1.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#"><div class='bx fas fa-link'></div></a>
+                <h3>work1</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="images/w1.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#"><div class='bx fas fa-link'></div></a>
+                <h3>work2</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="images/w1.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#"><div class='bx fas fa-link'></div></a>
+                <h3>work3</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="images/w1.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#"><div class='bx fas fa-link'></div></a>
+                <h3>work4</h3>
+            </div>
+        </div>
+    </div>
+
+   </section>
+   <!--contact-->
+   <section class="contact" id="contact">
+    <div class="heading">
+        <h1><span>contact</span> us</h1>
+    </div>
+    <div class="contact-form">
+        <form action="text">
+            <input type="text" placeholder="your name" required>
+            <input type="email" name="" id=""placeholder="enter your email"required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="write message here..." required></textarea>
+            <input type="submit" value="send" class="send-btn">
+        </form>
+    </div>
+   </section>
+   <!--copyright-->
+   <div class="copyright">
+    <p>&#169; yonta  All Right Recoverd</p>
+   </div>
+
+    <!--custom js file-->
+    <script src="js/main.js">
+    </script>
+</body>
+</html>
